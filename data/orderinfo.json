@@ -1,0 +1,41 @@
+{
+  "tc01": {
+    "email": "lan@gmail.com",
+    "fullname": "Lan Nguyen",
+    "phone": "0785911610",
+    "adress": "30 TCD Tan Binh,HCM",
+    "note": "This is for test"
+  },
+  "tc02": {
+    "email": "1",
+    "fullname": "Lan Nguyen",
+    "phone": "0785911610",
+    "adress": "30 TCD Tan Binh,HCM",
+    "note": "This is for test",
+    "errorMessage": "Please include an '@' in the email address. '1' is missing an '@'."
+  },
+  "tc03": {
+    "email": "",
+    "fullname": "Lan Nguyen",
+    "phone": "0785911610",
+    "adress": "30 TCD Tan Binh,HCM",
+    "note": "This is for test",
+    "errorMessage": "Please fill out this field."
+  },
+  "tc04": {
+    "email": "lan@gmail.com",
+    "fullname": "",
+    "phone": "0785911610",
+    "adress": "30 TCD Tan Binh,HCM",
+    "note": "This is for test",
+    "errorMessage": "Please fill out this field."
+  },
+  "tc05": {
+    "email": "lan@gmail.com",
+    "fullname": "Lan Nguyen",
+    "phone": "0785911610",
+    "adress": "",
+    "note": "This is for test",
+    "errorMessage": "Please fill out this field."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "tc01": {
+    "name": "Log in successfully with a valid username and password",
+    "username": "public.general01@gmail.com",
+    "password": "@dmin-123",
+    "userFullName": "Public Test"
+  },
+  "tc02": {
+    "name": "Log in failed with an invalid username and password",
+    "username": "public.test@yahoo.com",
+    "password": "invalid password",
+    "errorMessage": "There was a problem with your login."
+  },
+  "tc03": {
+    "name": "Log in failed with an invalid sqlinjection",
+    "username": "<script>alert('1');</script>",
+    "password": "invalid password",
+    "errorMessage": "There was a problem with your login."
+  }
+}
